@@ -1,0 +1,39 @@
+# Environment variables & secrets - NEVER commit or share
+.env
+.env.*
+.env.local
+backend/.env
+backend/.env.*
+frontend/.env
+frontend/.env.*
+frontend/.env.local
+*.env
+*.pem
+*.crt
+*.key
+
+# Preserve template files
+!.env.example
+!*.env.example
+!backend/.env.example
+!frontend/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
